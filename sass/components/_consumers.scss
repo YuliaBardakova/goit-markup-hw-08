@@ -1,0 +1,39 @@
+.consumers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.consumers-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    
+    
+}
+
+.consumers-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.consumers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill:var(--icon-color);
+    transition: 250ms var(--animation-cub);
+        &:hover,
+        &:focus {
+        fill:var(--header-linke-color);
+        border-color:var(--header-linke-color);
+}
+}
+

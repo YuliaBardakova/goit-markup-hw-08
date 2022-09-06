@@ -1,0 +1,91 @@
+.checkbox__policy{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    color: #757575;
+    display:flex;
+    span {
+        width: 16px;
+        height: 15px;
+        border: 2px solid #212121;
+        border-radius: 3px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        transition: background-color 250ms linear; 
+        border-color: 250ms linear;
+    }
+
+}
+
+.check__icon{
+    fill: #fff;
+    transition: fill 250ms linear;
+}
+
+.checkbox:checked + .checkbox__policy span {
+    background-color: var(--header-linke-color);
+    border-color: var(--header-linke-color);
+    border: none;
+}
+
+.checkbox:checked + .checkbox__policy .check__icon {
+    fill: #fff;
+}
+.checkbox:focus + .checkbox__policy span {
+    border-color: var(--header-linke-color);
+}
+
+.polis{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin-left: 3px;
+    text-decoration:underline;
+    color:var(--header-linke-color);
+}
+
+.modal__btn{
+    display:block;
+    margin: 0 auto;
+    padding: 10px 32px;
+    min-width: 200px;
+    color: var(--title-color-too);
+    background: var(--header-linke-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-width: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-decoration:none;
+    letter-spacing: 0.06em;
+    text-align:center;
+    cursor: pointer;
+    transform: scaleX(1);
+    transition: 250ms var(--animation-cub);
+        &:hover {
+        transform: scale(1.03);
+}
+}
+
+
+    /* .checkbox-text::before{
+    content:"";
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 3px;
+    margin-right: 5px;
+    transition: background-color: 250ms linear;
+}
+
+.input-check:checked + .checkbox-text::before {
+    background-color: var(--header-linke-color);
+    background-image: url(../images/chek.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+} */
