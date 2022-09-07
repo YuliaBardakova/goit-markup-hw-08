@@ -399,12 +399,13 @@ address {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: var(--title-color);
 }
 @media screen and (min-width: 1200px) {
   .foto-title,
 .team-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
   }
@@ -537,7 +538,7 @@ address {
 }
 
 .consumers-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
@@ -546,6 +547,7 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .consumers-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
   }
@@ -579,7 +581,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -589,6 +591,16 @@ address {
 .consumers-link:hover, .consumers-link:focus {
   fill: var(--header-linke-color);
   border-color: var(--header-linke-color);
+}
+@media screen and (min-width: 768px) {
+  .consumers-link {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .consumers-link {
+    width: 170px;
+  }
 }
 
 .footer {
