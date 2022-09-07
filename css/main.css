@@ -351,6 +351,7 @@ address {
 .benefits-icon-box {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
