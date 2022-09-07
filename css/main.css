@@ -78,8 +78,7 @@ address {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -603,22 +602,6 @@ address {
 .form__input:focus {
   border-color: var(--header-linke-color);
 }
-.form__input::-moz-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.form__input:-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
 .form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -752,18 +735,6 @@ address {
 }
 .modal__coment:focus {
   border-color: var(--header-linke-color);
-}
-.modal__coment::-moz-placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-.modal__coment:-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 .modal__coment::placeholder {
   font-size: 12px;
