@@ -565,12 +565,12 @@ address {
 }
 
 @media screen and (min-width: 480px) {
-  .consumers-list {
+  .consumers-item {
     width: calc((100% - 60px) / 2);
   }
 }
 @media screen and (min-width: 768px) {
-  .consumers-list {
+  .consumers-item {
     width: calc((100% - 90px) / 3);
   }
 }
