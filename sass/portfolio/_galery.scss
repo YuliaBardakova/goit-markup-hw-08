@@ -12,10 +12,14 @@
     flex-wrap: wrap;
     gap: 30px;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 40px;
+    @media screen and (min-width: 1200px){
+        margin-top: 50px;
+    }
 }
+
 .galery-item{
-    width: calc((100% - 60px)/3);
+    width: 100%;
     transition: 250ms var(--animation-cub);
     background:var(--title-color-too);
     border: 1px solid #EEEEEE;
@@ -25,8 +29,15 @@
         0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);  
-    }
+        }
+            @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+            }
+            @media screen and (min-width: 1200px) {
+            width: calc((100% - 60px) / 3);
+            }
 }
+
 
 .galery-item:hover .text-box{
     transform: translateY(0);
