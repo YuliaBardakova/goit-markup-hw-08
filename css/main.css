@@ -15,6 +15,7 @@ body {
 
 img {
   display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -283,7 +284,7 @@ address {
 }
 
 .benefits {
-  padding-top: 94px;
+  padding-top: 60px;
 }
 
 .benefits-icon-box {
@@ -296,16 +297,8 @@ address {
   background-color: #F5F4FA;
 }
 
-.benefits-list {
-  display: flex;
-  padding: 0;
-}
-
 .benefits-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  max-width: 270px;
-  flex-basis: calc((100% - 90px) / 4);
+  max-width: 100%;
 }
 
 .benefits-title {
