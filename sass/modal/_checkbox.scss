@@ -1,6 +1,6 @@
 .checkbox__policy{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
     color: #757575;
@@ -15,7 +15,10 @@
         justify-content: center;
         transition: background-color 250ms linear; 
         border-color: 250ms linear;
-    }
+        }
+            @media screen and (min-width: 1200px) {
+                font-size: 14px;
+            }   
 
 }
 
@@ -38,11 +41,14 @@
 }
 
 .polis{
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.03em;
     margin-left: 3px;
     text-decoration:underline;
     color:var(--header-linke-color);
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        }
 }
 
 .modal__btn{
