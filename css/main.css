@@ -383,8 +383,15 @@ address {
 }
 
 .foto {
+  display: none;
+  padding-top: 47px;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+@media screen and (min-width: 1200px) {
+  .foto {
+    display: block;
+  }
 }
 
 .foto-title,
