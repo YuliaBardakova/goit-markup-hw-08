@@ -1,8 +1,32 @@
 .team{
     background-color:#F5F4FA;  
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+.team-item {
+    margin-right: 30px;
+        &:last-child {
+        margin-right: 0px;
+            @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+            }
+    }
+}
+
 
 .team-member{
     font-weight: 500;
@@ -24,17 +48,6 @@
     margin-bottom: 16px;
     
     color:var(--hero-text);
-}
-
-.team-list{
-    display: flex;
-}
-
-.team-item {
-    margin-right: 30px;
-        &:last-child {
-        margin-right: 0px;
-    }
 }
 
 .time-fio{
