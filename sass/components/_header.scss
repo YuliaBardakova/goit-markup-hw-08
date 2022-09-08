@@ -4,8 +4,10 @@
 
 .navigation,.main-nav {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    display: none;
 }
+
 
 .header-list-info{
     display: flex;
@@ -118,6 +120,7 @@ color: var(--header-linke-color);
 .contact-list {
     display: flex;
     margin-left: auto;
+    display: none;
 }
 
 .contact__link__mail{

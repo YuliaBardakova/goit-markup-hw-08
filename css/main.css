@@ -92,6 +92,7 @@ address {
 .navigation, .main-nav {
   display: flex;
   align-items: center;
+  display: none;
 }
 
 .header-list-info {
@@ -197,6 +198,7 @@ address {
 .contact-list {
   display: flex;
   margin-left: auto;
+  display: none;
 }
 
 .contact__link__mail {
@@ -240,10 +242,6 @@ address {
 }
 
 .navig-none {
-  display: none;
-}
-
-.navigation, .contact-list {
   display: none;
 }
 
