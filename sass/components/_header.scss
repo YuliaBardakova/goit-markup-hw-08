@@ -5,9 +5,10 @@
 .navigation,.main-nav {
     display: flex;
     align-items: center;
+}
+.navigation{
     display: none;
 }
-
 
 .header-list-info{
     display: flex;
@@ -162,8 +163,4 @@ color: var(--header-linke-color);
     display: flex;
     margin-right: 10px;
     fill:currentColor;
-}
-
-.navig-none{
-    display: none;
 }

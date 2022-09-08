@@ -92,6 +92,9 @@ address {
 .navigation, .main-nav {
   display: flex;
   align-items: center;
+}
+
+.navigation {
   display: none;
 }
 
@@ -241,15 +244,20 @@ address {
   fill: currentColor;
 }
 
-.navig-none {
-  display: none;
+.menu-open__btn {
+  margin-left: auto;
 }
 
 .mob-menu {
-  position: absolute;
+  position: fixed;
+  background-color: #fff;
   top: 0;
   left: 0;
-  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .hero {

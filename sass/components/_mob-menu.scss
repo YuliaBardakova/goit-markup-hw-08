@@ -1,9 +1,55 @@
-.mob-menu{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #fff;
+.menu-open__btn{
+    margin-left: auto;
 }
 
+.mob-menu{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
-
+.menu-close__btn{
+    
+}
+.mob-menu__navigation {
+}
+.mob-menu__list {
+}
+.list {
+}
+.mob-menu__item {
+}
+.mob-menu__link {
+}
+.link {
+}
+.current {
+}
+.accent {
+}
+.line {
+}
+.mob__contact {
+}
+.mob-contact__list {
+}
+.mob-contact__item {
+}
+.mob-contact__link__mail {
+}
+.mob-contact__link__tell {
+}
+.mob-soc {
+}
+.mob-soc__list {
+}
+.mob-soc__item {
+}
+.mob-soc__link {
+}
