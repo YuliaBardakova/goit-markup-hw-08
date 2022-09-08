@@ -18,7 +18,6 @@ body {
 
 img {
   display: block;
-  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -188,6 +187,10 @@ address {
 }
 .navigation__item:last-child {
   margin-right: 0px;
+}
+
+.contact-list {
+  display: none;
 }
 
 .contact-list,

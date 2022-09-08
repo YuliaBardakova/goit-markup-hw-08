@@ -108,7 +108,9 @@ color: var(--header-linke-color);
         margin-right: 0px;
     }
 }
-
+.contact-list{
+    display: none;
+}
 .contact-list, 
 .contact-list__item + .contact-list__item {
     margin-left: 50px;
