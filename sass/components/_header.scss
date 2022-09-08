@@ -108,9 +108,7 @@ color: var(--header-linke-color);
         margin-right: 0px;
     }
 }
-.navig-none{
-    display: none;
-}
+
 
 .contact-list, 
 .contact-list__item + .contact-list__item {
@@ -161,4 +159,8 @@ color: var(--header-linke-color);
     display: flex;
     margin-right: 10px;
     fill:currentColor;
+}
+
+.navig-none{
+    display: none;
 }

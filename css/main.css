@@ -189,10 +189,6 @@ address {
   margin-right: 0px;
 }
 
-.navig-none {
-  display: none;
-}
-
 .contact-list,
 .contact-list__item + .contact-list__item {
   margin-left: 50px;
@@ -241,6 +237,10 @@ address {
   display: flex;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.navig-none {
+  display: none;
 }
 
 .hero {
