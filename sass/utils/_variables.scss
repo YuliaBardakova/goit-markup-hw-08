@@ -7,6 +7,9 @@
     --icon-color:#afb1b8;
     --card-set-gap:margin-left: 30px;
     --animation-cub: cubic-bezier(0.4, 0, 0.2, 1);
+    --bg-gradient:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4));
 }
 body{
     font-family:'Roboto',sans-serif;

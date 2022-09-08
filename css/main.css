@@ -7,6 +7,9 @@
   --icon-color:#afb1b8;
   --card-set-gap:margin-left: 30px;
   --animation-cub: cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-gradient:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4));
 }
 
 body {
@@ -247,11 +250,22 @@ address {
   background-size: cover;
   background-position: center;
   background-color: var(--color-fone);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/logo.jpg);
+  background-image: var(--bg-gradient), url(../images/logo-tel.jpg);
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/logo-tel-2x.jpg);
+  }
 }
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
+    background-image: var(--bg-gradient), url(../images/logo-tab.jpg);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/logo-tab-2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -260,6 +274,12 @@ address {
     padding-bottom: 200px;
     text-align: center;
     max-width: 1600px;
+    background-image: var(--bg-gradient), url(../images/logo.jpg);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/logo-2x.jpg);
   }
 }
 
