@@ -243,6 +243,17 @@ address {
   display: none;
 }
 
+.navigation, .contact-list {
+  display: none;
+}
+
+.mob-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
 .hero {
   padding-top: 118px;
   padding-bottom: 118px;
