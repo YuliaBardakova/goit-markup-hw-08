@@ -1,13 +1,27 @@
 .header {
     border-bottom: 1px solid #ececec;
+    @media screen and (min-width: 1200px) {
+        min-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
-.navigation,.main-nav {
+.main-nav {
     display: flex;
     align-items: center;
 }
 .navigation{
     display: none;
+    @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    margin-right: 96px;
+    }
+    @media screen and (min-width: 1200px) {
+    margin-right: 0;
+    }
+
 }
 
 .header-list-info{
@@ -111,40 +125,74 @@ color: var(--header-linke-color);
         margin-right: 0px;
     }
 }
-
-
-.contact-list, 
-.contact-list__item + .contact-list__item {
-    margin-left: 50px;
+.contact-list__item{
+@media screen and (min-width: 768px) {
+    margin-bottom: 12px;
+    &:last-child {
+    margin-bottom: 0;
+    }
 }
+@media screen and (min-width: 1200px) {
+    margin-right: 30px;
+    margin-bottom: 0;
+    &:last-child {
+    margin-right: 0;
+    }
+}
+}
+// .contact-list, 
+// .contact-list__item + .contact-list__item {
+//     margin-left: 50px;
+// }
 
 .contact-list {
+    display: none;
+    @media screen and (min-width: 768px) {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    }
+    @media screen and (min-width: 1200px) {
     display: flex;
     margin-left: auto;
-    display: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    }
 }
+    // display: flex;
+    // margin-left: auto;
+    // display: none;
+
 
 .contact__link__mail{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     color: var(--hero-text);
     &:hover,
     &:focus {
         color: var(--header-linke-color);
     }
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.14;
+        }
 }
 
 .contact__link__tell,
 .address__tell,
 .address__mail {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     transition: 250ms var(--animation-cub);
     color: var(--hero-text);
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.14;
+        }
 }
 
 .contact__link__tell:hover,

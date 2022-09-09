@@ -88,14 +88,33 @@ address {
 .header {
   border-bottom: 1px solid #ececec;
 }
+@media screen and (min-width: 1200px) {
+  .header {
+    min-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
-.navigation, .main-nav {
+.main-nav {
   display: flex;
   align-items: center;
 }
 
 .navigation {
   display: none;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: 96px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigation {
+    margin-right: 0;
+  }
 }
 
 .header-list-info {
@@ -193,37 +212,77 @@ address {
   margin-right: 0px;
 }
 
-.contact-list,
-.contact-list__item + .contact-list__item {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .contact-list__item {
+    margin-bottom: 12px;
+  }
+  .contact-list__item:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-list__item {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  .contact-list__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .contact-list {
-  display: flex;
-  margin-left: auto;
   display: none;
+}
+@media screen and (min-width: 768px) {
+  .contact-list {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-list {
+    display: flex;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 .contact__link__mail {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
   color: var(--hero-text);
 }
 .contact__link__mail:hover, .contact__link__mail:focus {
   color: var(--header-linke-color);
 }
+@media screen and (min-width: 1200px) {
+  .contact__link__mail {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
 
 .contact__link__tell,
 .address__tell,
 .address__mail {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
   transition: 250ms var(--animation-cub);
   color: var(--hero-text);
+}
+@media screen and (min-width: 1200px) {
+  .contact__link__tell,
+.address__tell,
+.address__mail {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .contact__link__tell:hover,
