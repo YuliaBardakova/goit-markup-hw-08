@@ -2,6 +2,17 @@
     margin-left: auto;
 }
 
+.menu-btn {
+    border: none;
+    margin-left: auto;
+    background-color: transparent;
+    padding: 0;
+    
+    @media screen and (min-width: 768px) {
+    display: none;
+    }
+}
+
 .mob-menu{
     position: fixed;
     z-index: 1;
@@ -34,6 +45,7 @@
     border: none;
     background-color: transparent;
     padding: 0;
+
     @media screen and (min-width: 768px) {
     display: none;
     }

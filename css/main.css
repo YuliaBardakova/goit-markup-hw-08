@@ -313,6 +313,18 @@ address {
   margin-left: auto;
 }
 
+.menu-btn {
+  border: none;
+  margin-left: auto;
+  background-color: transparent;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
 .mob-menu {
   position: fixed;
   z-index: 1;
