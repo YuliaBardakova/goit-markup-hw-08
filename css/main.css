@@ -199,6 +199,11 @@ address {
   border-radius: 2px;
   background-color: var(--header-linke-color);
 }
+@media screen and (min-width: 1200px) {
+  .line::after {
+    bottom: 0;
+  }
+}
 
 .navigation__list {
   display: flex;
@@ -300,6 +305,7 @@ address {
 .contact__icon__tell {
   display: flex;
   margin-right: 10px;
+  margin-left: 10px;
   fill: currentColor;
 }
 

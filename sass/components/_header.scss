@@ -110,7 +110,10 @@ color: var(--header-linke-color);
         bottom: 0;
         border-radius: 2px;
         background-color: var(--header-linke-color);
-    }
+        @media screen and (min-width: 1200px) {
+            bottom: 0;
+            }
+        }
 }
 
 .navigation__list {
@@ -159,10 +162,6 @@ color: var(--header-linke-color);
     padding-bottom: 32px;
     }
 }
-    // display: flex;
-    // margin-left: auto;
-    // display: none;
-
 
 .contact__link__mail{
     font-weight: 500;
@@ -210,5 +209,6 @@ color: var(--header-linke-color);
 .contact__icon__tell {
     display: flex;
     margin-right: 10px;
+    margin-left: 10px;
     fill:currentColor;
 }
