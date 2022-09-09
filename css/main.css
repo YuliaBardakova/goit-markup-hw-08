@@ -361,6 +361,11 @@ address {
   fill: var(--header-linke-color);
 }
 
+.menu-btn__icon {
+  width: 40px;
+  height: 40px;
+}
+
 .mob-soc__list {
   display: flex;
 }
@@ -385,6 +390,7 @@ address {
   font-size: 34px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
   color: var(--header-linke-color);
 }
 
