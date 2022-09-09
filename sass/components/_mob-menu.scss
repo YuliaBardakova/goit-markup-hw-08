@@ -1,13 +1,12 @@
-.menu-open__btn{
-    margin-left: auto;
-}
+// .menu-open__btn{
+//     margin-left: auto;
+// }
 
 .menu-btn {
     border: none;
     margin-left: auto;
     background-color: transparent;
     padding: 0;
-    
     @media screen and (min-width: 768px) {
     display: none;
     }
@@ -41,18 +40,7 @@
 }
 
 
-.menu-btn {
-    border: none;
-    background-color: transparent;
-    padding: 0;
-
-    @media screen and (min-width: 768px) {
-    display: none;
-    }
-}
-
 .menu-close-btn {
-    margin-left: auto;
     position: absolute;
     display: block;
     right: 15px;
@@ -61,11 +49,6 @@
     &:focus {
     fill: var(--header-linke-color);
     }
-}
-
-.menu-btn__icon {
-    width: 40px;
-    height: 40px;
 }
 
 .mob-soc__list {
