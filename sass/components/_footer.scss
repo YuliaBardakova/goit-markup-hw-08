@@ -1,20 +1,27 @@
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
     width: 100%;
-    min-height: 252px;
+    min-height: 603px;
+    @media screen and (min-width: 768px) {
+        min-height: 432px;
+        }
     @media screen and (min-width: 1200px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        min-height: 252px;
         }
 }
 
 .footer-container{
+    display: block;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     @media screen and (min-width: 1200px) {
         display: flex;
+        // flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: baseline;
         }
 }
@@ -32,7 +39,7 @@
     color:var(--title-color-too);
 }
 
-.box{
+.address-box{
 text-align: center;
     @media screen and (min-width: 768px) {
     margin-left: 76px;
@@ -40,6 +47,7 @@ text-align: center;
     @media screen and (min-width: 1200px) {
     margin-left: 0;
     text-align: start;
+    width: 100%;
     }
 }
 
@@ -84,8 +92,9 @@ text-align: center;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
+    text-align: center;
     text-transform: uppercase;
     color: var(--title-color-too);
     @media screen and (min-width: 1200px) {
@@ -95,6 +104,8 @@ text-align: center;
 
 .media{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-top: 60px;
     @media screen and (min-width: 768px) {
@@ -103,7 +114,7 @@ text-align: center;
         margin-right: 86px;
         }
     @media screen and (min-width: 1200px) {
-        margin: 12px 93px 0 70px;
+        margin:0
         }
     }
 
