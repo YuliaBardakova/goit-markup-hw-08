@@ -97,6 +97,7 @@ address {
 }
 
 .main-nav {
+  padding: 15px 0;
   display: flex;
   align-items: center;
 }
@@ -314,6 +315,11 @@ address {
   margin-left: auto;
   background-color: transparent;
   padding: 0;
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  right: 10px;
+  top: 10px;
 }
 @media screen and (min-width: 768px) {
   .menu-btn {
@@ -347,13 +353,6 @@ address {
   opacity: 0;
 }
 
-.menu-close-btn {
-  position: absolute;
-  display: block;
-  margin-left: auto;
-  right: 15px;
-  top: 10px;
-}
 .menu-close-btn:hover, .menu-close-btn:focus {
   fill: var(--header-linke-color);
 }
@@ -1059,6 +1058,12 @@ address {
 .form__button:hover, .form__button:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .form__button {
+    margin-top: 0;
+    margin-left: 12px;
+  }
 }
 
 .form__icon {
