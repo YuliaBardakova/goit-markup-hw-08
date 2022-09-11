@@ -7,6 +7,11 @@
     margin-left: auto;
     background-color: transparent;
     padding: 0;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    right: 15px;
+    top: 10px;
     @media screen and (min-width: 768px) {
     display: none;
     }
@@ -41,11 +46,11 @@
 
 
 .menu-close-btn {
-    position: absolute;
-    display: block;
-    margin-left: auto;
-    right: 15px;
-    top: 10px;
+    // position: absolute;
+    // display: block;
+    // margin-left: auto;
+    // right: 15px;
+    // top: 10px;
     &:hover,
     &:focus {
     fill: var(--header-linke-color);
