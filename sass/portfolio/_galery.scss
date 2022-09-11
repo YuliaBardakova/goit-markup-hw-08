@@ -18,7 +18,8 @@
     }
 }
 
-.galery-item{
+.galery-item,
+.galery-item-hover{
     width: 100%;
     transition: 250ms var(--animation-cub);
     background:var(--title-color-too);
