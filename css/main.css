@@ -806,12 +806,28 @@ address {
 
 .footer {
   background-color: #2F303A;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  width: 100%;
+  min-height: 252px;
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
-.footer-container {
-  align-items: baseline;
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .footer-logo {
@@ -827,8 +843,18 @@ address {
 }
 
 .box {
-  margin-right: 70px;
-  flex-grow: 1px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    margin-left: 76px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box {
+    margin-left: 0;
+    text-align: start;
+  }
 }
 
 .address__link {
@@ -880,6 +906,24 @@ address {
 @media screen and (min-width: 1200px) {
   .media__title {
     text-align: start;
+  }
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .media {
+    display: block;
+    margin-top: 0;
+    margin-right: 86px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .media {
+    margin: 12px 93px 0 70px;
   }
 }
 
