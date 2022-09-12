@@ -140,8 +140,8 @@
         &:focus {
         border-color: var(--header-linke-color);
         }
-        &:focus, .modal-icon {
-        fill:var(--header-linke-color);
+        &:focus + .modal__icon {
+        fill: var(--header-linke-color);
         }
             @media screen and (min-width: 1200px) {
             width: 448px;
