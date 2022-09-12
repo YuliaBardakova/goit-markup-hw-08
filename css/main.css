@@ -1052,6 +1052,7 @@ address {
   width: 200px;
   height: 50px;
   padding: 10px 28px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
