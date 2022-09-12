@@ -25,9 +25,11 @@
 }
 
 .form__wrap {
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     @media screen and (min-width: 1200px) {
         display: flex;
         flex-wrap: nowrap;
@@ -75,8 +77,6 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    // align-items: center;
-    // text-align: center;
     border: none;
     outline: none;
     cursor: pointer;
@@ -92,6 +92,8 @@
         }
         @media screen and (min-width: 768px) {
             display: flex;
+            align-items: center;
+            text-align: center;
         }
         @media screen and (min-width: 1200px) {
             display: flex;

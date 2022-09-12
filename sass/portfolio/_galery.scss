@@ -18,8 +18,7 @@
     }
 }
 
-.galery-item,
-.galery-item-hover{
+.galery-item {
     width: 100%;
     transition: 250ms var(--animation-cub);
     background:var(--title-color-too);
@@ -45,7 +44,7 @@
 }
 
 .galery-title{
-    min-width: 322px;
+    // min-width: 322px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
