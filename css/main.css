@@ -123,6 +123,8 @@ address {
 }
 
 .logo {
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
