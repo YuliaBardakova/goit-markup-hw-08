@@ -332,6 +332,11 @@ address {
   justify-content: space-between;
 }
 
+.is-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
 .menu-btn {
   margin-left: auto;
   border: none;
@@ -349,19 +354,14 @@ address {
   height: 40px;
 }
 
-.is-hidden {
-  transform: translateY(-100%);
-  opacity: 0;
-}
-
-.menu-close-btn {
+.menu-close__btn {
   position: absolute;
   display: block;
   margin-left: auto;
   right: 15px;
   top: 10px;
 }
-.menu-close-btn:hover, .menu-close-btn:focus {
+.menu-close__btn:hover, .menu-close__btn:focus {
   fill: var(--header-linke-color);
 }
 

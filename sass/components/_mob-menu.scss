@@ -20,6 +20,11 @@
     }
 }
 
+.is-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
 .menu-btn {
     margin-left: auto;
     border: none;
@@ -35,12 +40,7 @@
     height: 40px;
 }
 
-.is-hidden {
-    transform: translateY(-100%);
-    opacity: 0;
-}
-
-.menu-close-btn {
+.menu-close__btn {
     position: absolute;
     display: block;
     margin-left: auto;
