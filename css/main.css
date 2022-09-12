@@ -1227,7 +1227,7 @@ address {
 .input__form:focus {
   border-color: var(--header-linke-color);
 }
-.input__form:focus + .modal-icon {
+.input__form:focus, .input__form .modal-icon {
   fill: var(--header-linke-color);
 }
 @media screen and (min-width: 1200px) {

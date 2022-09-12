@@ -127,7 +127,7 @@
     overflow: hidden;
 }
 
-.input__form{
+.input__form {
     width: 100%;
     height: 40px;
     padding-left: 42px;
@@ -139,10 +139,10 @@
     transition: border-color 250ms var(--animation-cub);
         &:focus {
         border-color: var(--header-linke-color);
-    }
-        &:focus + .modal-icon {
+        }
+        &:focus, .modal-icon {
         fill:var(--header-linke-color);
-    }
+        }
             @media screen and (min-width: 1200px) {
             width: 448px;
             }
