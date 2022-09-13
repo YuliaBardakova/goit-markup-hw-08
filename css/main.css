@@ -225,24 +225,6 @@ address {
   margin-right: 0px;
 }
 
-@media screen and (min-width: 768px) {
-  .contact-list__item {
-    margin-bottom: 12px;
-  }
-  .contact-list__item:last-child {
-    margin-bottom: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .contact-list__item {
-    margin-right: 30px;
-    margin-bottom: 0;
-  }
-  .contact-list__item:last-child {
-    margin-right: 0;
-  }
-}
-
 .contact-list {
   display: none;
 }
@@ -259,6 +241,24 @@ address {
     margin-left: auto;
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-list__item {
+    margin-bottom: 12px;
+  }
+  .contact-list__item:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-list__item {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  .contact-list__item:last-child {
+    margin-right: 0;
   }
 }
 
