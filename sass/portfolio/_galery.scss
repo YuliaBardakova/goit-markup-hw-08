@@ -50,7 +50,6 @@
     line-height: 2;
     letter-spacing: 0.06em;
     margin: 4px;
-
     color: var(--title-color);
 }
 
@@ -60,9 +59,9 @@
     line-height: 1.87;
     letter-spacing: 0.03em;
     margin-bottom: 4px;
-
     color: var(--hero-text);
 }
+
 .galery-name{
     padding: 20px 24px;
 }
@@ -71,6 +70,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .text-box{
     position: absolute;
     top: 0;
@@ -85,7 +85,6 @@
     transition: 250ms var(--animation-cub);
     transition: transform 400ms linear;
     line-height: 1.5;
-
     background: rgba(33, 150, 243, 0.9);
     color:var(--title-color-too);
 }
