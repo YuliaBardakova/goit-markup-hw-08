@@ -982,10 +982,12 @@ address {
 .form {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   .form {
     margin-left: 93px;
+    margin-top: 0;
   }
 }
 
