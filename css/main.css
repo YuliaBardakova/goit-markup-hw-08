@@ -120,6 +120,7 @@ address {
 .header-list-info {
   display: flex;
   margin-left: auto;
+  position: relative;
 }
 
 .logo {
@@ -209,7 +210,7 @@ address {
 
 .navigation__list {
   display: flex;
-  margin-left: 93px;
+  margin-left: 96px;
 }
 
 .navigation__item {
@@ -523,10 +524,12 @@ address {
 
 .benefits {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .benefits {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -596,7 +599,6 @@ address {
 @media screen and (min-width: 1200px) {
   .foto {
     display: block;
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -780,12 +782,12 @@ address {
 
 @media screen and (min-width: 480px) {
   .consumers-item {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 40px) / 2);
   }
 }
 @media screen and (min-width: 768px) {
   .consumers-item {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 3);
   }
 }
 
@@ -973,7 +975,6 @@ address {
 }
 
 .form {
-  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1465,7 +1466,7 @@ address {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin: 4px;
+  margin-bottom: 4px;
   color: var(--hero-text);
 }
 
