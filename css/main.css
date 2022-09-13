@@ -534,7 +534,7 @@ address {
 @media screen and (min-width: 1200px) {
   .benefits {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 64px;
   }
 }
 
